@@ -1,83 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maxence Peyron's Profile</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #f5f5f5;
-    }
-    .profile-container {
-      text-align: center;
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
-      max-width: 400px;
-    }
-    .profile-picture {
-      border-radius: 50%;
-      width: 100px; 
-      height: 100px; 
-      object-fit: cover;
-      margin-bottom: 20px;
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .profile-picture:hover {
-      transform: scale(1.1);
-      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
-    }
-    .profile-container h1 {
-      color: #2ECC71;
-    }
-    .qualities {
-      list-style: none;
-      padding: 0;
-    }
-    .qualities li {
-      padding: 5px 0;
-    }
-  </style>
+      <title>Maxence Peyron's profile</title>
+      <meta name="description" content="This is the profile of Maxence">
+      <meta charset="utf-8">
+      <script src="https://kit.fontawesome.com/29fc38ecfd.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-  <div class="profile-container">
-    <img src="images/profile.png" alt="Profile Picture of Maxence Peyron" class="profile-picture">
-    <h1>Maxence Peyron</h1>
-    <p><strong>Student at IESEG</strong></p>
-    <p><strong>Passionate about sports</strong></p>
-    
-    <section class="bio">
-      <h2>Biography</h2>
-      <p>Hi! I'm Maxence Peyron, a dedicated student at IESEG. Born with a passion for sports and a creative mind, I thrive on challenges and teamwork. Always eager to learn and grow, I aim to bring innovation and enthusiasm to everything I do.</p>
-    </section>
-    
-    <section class="interests">
-      <h2>Interests</h2>
-      <ul class="qualities">
-        <li>Creative thinker</li>
-        <li>Team player</li>
-        <li>Problem solver</li>
-        <li>Dedicated learner</li>
-        <li>Avid reader</li>
-        <li>Tech enthusiast</li>
-      </ul>
-    </section>
-    
-    <section class="contact">
-      <h2>Contact Information</h2>
-      <p>Email: maxence.peyron@ieseg.fr</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/maxence-peyron-51321a2b2">Maxence Peyron</a></p>
-    </section>
-  </div>
+
+<div class="container">
+      
+      <div class="card-white" id="introduction">
+            <h1>Hello, my name is Maxence ;)</h1>
+            <img src="image/profile.png" class="img-circle" width="100px" alt="Maxence PEYRON">
+            <p>I really enjoy learning new languages and dicover new cultures and ways of life. I aim to bring innovation and enthusiasm to everything I do. 
+            </p>
+            <a href="http://lewagon.com" class="btn-red" target="_blank">Discover Le Wagon</a>
+      </div>
+
+
+      <div class="card-white">
+            <h2>My skills</h2>
+            <p>Creative thinker, Team player, Problem solver, Dedicated learner, Avid reader</p>
+
+      </div>
+
+      <div class="card-white">
+            <h2>My certifications</h2>
+            <p>Voltaire, PIX</p>
+      </div>
+
+      <div class="card-white">
+            <h2>My work exeprience</h2>
+            <p>I've worked in a small shop this summer, I learned a lot of new skills. I became more autonomous in my work and i learned new communication skills. I also leaned how to welcome clients </p>
+      </div>
+
+      <div class="card-white">
+            <h2>Follow me !</h2>
+            <ul class="list-inline">
+                  <li>
+                  <a href="https://www.facebook.com/maxence.peyron" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  </li>
+            <li>
+                  <a href="https://www.linkedin.com/in/maxence-peyron-51321a2b2/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                  </a>
+            </li>
+            </ul>
+      </div>
+</div>
+
+
+
 </body>
 </html>
-
